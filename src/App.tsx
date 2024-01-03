@@ -1,7 +1,9 @@
 
 const App = () => {
   return (
-    <div>hi linktree clone</div>
+    <>
+      <div>hi linktree clone</div>
+    </>
   )
 }
 
