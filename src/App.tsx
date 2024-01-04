@@ -1,6 +1,8 @@
 import UserInfo from "./Pages/UserInfo"
 import Login from "./Pages/Login"
 import UserOutput from "./Pages/UserOutput"
+import Home from "./Pages/Home"
+import { Routes, Route } from 'react-router-dom';
 
 
 
@@ -8,10 +10,13 @@ import UserOutput from "./Pages/UserOutput"
 const App = () => {
   return (
     <>
-      <div>hi linktree clone</div>
-      <UserInfo />
-      <UserOutput />
-      <Login />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/UserInfo" element={<UserInfo />} />
+        <Route path="/UserOutput" element={<UserOutput />} />
+        <Route path="/Login" element={<Login />} />
+      </Routes>
     </>
   )
 }

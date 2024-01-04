@@ -1,6 +1,15 @@
 const UserInfo = () => {
   return (
-    <div>UserInfo</div>
+    <>
+      <div>hi i amadiv </div>
+      <div>hi i amadiv </div>
+      <div>hi i amadiv </div>
+      <div>hi i amadiv </div>
+      <div>hi i amadiv </div>
+      <div>hi i amadiv </div>
+      <div>hi i amadiv </div>
+
+    </>
   )
 }
 
