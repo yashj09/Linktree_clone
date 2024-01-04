@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.navlist {
+  box-sizing: border-box;
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+  font-size: 18px;
+  background-color: black;
+  padding: 15px 5px;
+  align-items: center;
+  width: 60%;
+  border-radius: 30px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+.navigation a:hover {
+  color: rgba(148, 147, 147, 0.892);
+}
+
+.btn {
+  padding: 5px 15px;
+  background-color: #333;
+  border-radius: 15px;
+}
