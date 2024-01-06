@@ -1,7 +1,13 @@
 import "./userInfo.css"
-
+import { useState } from "react";
 
 const UserInfo = () => {
+  const [inputValue, setInputValue] = useState('');
+
+  const handleChange = (event: any) => {
+    setInputValue(event.target.value);
+  };
+
   return (
     <>
       <div className="container">
@@ -10,8 +16,9 @@ const UserInfo = () => {
             <div className="textArea">
               Enter your Twitter
             </div>
-            <input type="text" />
+            <input type="text" onChange={handleChange} value={inputValue} />
           </div>
+
           <div className="element">
             <div className="textArea">
               Enter your Instagram
