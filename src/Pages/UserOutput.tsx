@@ -4,21 +4,34 @@ const UserOutput = () => {
     <>
       <div className="contain">
         <div className="centrebox">
-          <div className="card">
-            Twitter
+          <div className="image">
+            <img src="user.jpg" alt="User-Image" />
           </div>
-          <div className="card">
-            Instagram
-          </div>
-          <div className="card">
-            Github
-          </div>
-          <div className="card">
-            Linkdln
-          </div>
-          <div className="card">
-            Reddit
-          </div>
+          <a href="https://x.com">
+            <div className="card">
+              Twitter
+            </div>
+          </a>
+          <a href="https://instagram.com">
+            <div className="card">
+              Instagram
+            </div>
+          </a>
+          <a href="https://github.com">
+            <div className="card">
+              Github
+            </div>
+          </a>
+          <a href="https://linkdln.com">
+            <div className="card">
+              Linkdln
+            </div>
+          </a>
+          <a href="https://reddit.com">
+            <div className="card">
+              Reddit
+            </div>
+          </a>
         </div>
       </div>
     </>
