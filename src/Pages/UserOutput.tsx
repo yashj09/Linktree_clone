@@ -14,7 +14,7 @@ const UserOutput = () => {
               </div>
             </a>
           </div>
-          <div className="links">
+          <div className="links ">
             <a href="https://instagram.com" target="_blank">
               <div className="card">
                 Instagram
@@ -44,6 +44,7 @@ const UserOutput = () => {
           </div>
         </div>
       </div>
+
     </>
   )
 }

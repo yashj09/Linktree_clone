@@ -4,7 +4,7 @@ import UserOutput from "./Pages/UserOutput"
 import Home from "./Pages/Home"
 import { Routes, Route } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
-
+import "./App.css"
 
 
 
