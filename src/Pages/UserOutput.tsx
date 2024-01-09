@@ -1,4 +1,4 @@
-
+import "./userOutput.css"
 const UserOutput = () => {
   return (
     <>
