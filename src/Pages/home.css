@@ -1,5 +1,22 @@
-.dii {
-  width: 500px;
-  height: 500px;
-  background-color: rgb(255, 196, 196);
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 1px;
+}
+.text {
+  border: 1px solid #333;
+  padding: 5px 5px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+  background-color: #f2efef;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 5px;
+}
+input::placeholder {
+  padding-left: 10px;
 }

@@ -45,7 +45,6 @@ const UserOutput = () => {
           </div>
         </div>
       </div>
-
     </>
   )
 }
