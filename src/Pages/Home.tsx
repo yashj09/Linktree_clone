@@ -5,7 +5,6 @@ const Home = () => {
   const navigate = useNavigate();
   const handle = (e: any) => {
     if (e.key === 'Enter') {
-      // e.preventDefault();
       navigate(`/UserInfo`)
     }
   }
@@ -15,7 +14,6 @@ const Home = () => {
         <div className="text">
           <span>Linktree.com/</span>
           <input type="text" placeholder="Enter your name" onKeyDown={handle} />
-
         </div>
       </div>
     </>
