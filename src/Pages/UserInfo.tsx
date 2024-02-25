@@ -36,7 +36,6 @@ const UserInfo = () => {
               onChange={handleInputChange}
             />
           </div>
-
           <div className="element">
             <div className="textArea">Enter your Instagram</div>
             <input
@@ -76,7 +75,6 @@ const UserInfo = () => {
               onChange={handleInputChange}
             />
           </div>
-
           <button type="submit">Submit</button>
         </div>
       </form>
